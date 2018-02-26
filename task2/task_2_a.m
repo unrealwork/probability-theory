@@ -1,2 +1,3 @@
+space = sample_space();
 % Sample space size
-fprintf('Sample space size is %d', sample_space_size());
+fprintf('Sample space size is %d', size(space,1));
