@@ -8,9 +8,7 @@ for i=0:9
             for k=0:9
                 if (k ~=j && k~=i)
                     count=count+1;
-                    space(count,1) = i;
-                    space(count,2) = j;
-                    space(count,3) = k;
+                    space(count,:) = [i,j,k];
                 end;
             end;
         end;
